@@ -5,8 +5,13 @@ module.exports = function(app) {
 
     //get friends survey data
     app.get("/api/friends", function(req, res) {
+        // var totalDiff = 0;
+        // for (var i=0; i<surveyData.length; i++) {
+        //     surveyData.totalDiff += surveyData.scores[i];
+        // }
         res.json(surveyData);
         res.json(true);
+        
     });
 
     //post friends survey data

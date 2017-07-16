@@ -1,12 +1,12 @@
 {
   "name": "friendfinder",
   "version": "1.0.0",
-  "description": "",
+  "description": "friendfinder",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "kenny dancy",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.14.2",
@@ -16,7 +16,16 @@
     "method-override": "^2.3.5",
     "mysql": "^2.10.2"
   },
- "scripts": {
-   "start": "node server.js"
- }
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kendancy/FriendFinder.git"
+  },
+  "keywords": [
+    "homework"
+  ],
+  "bugs": {
+    "url": "https://github.com/kendancy/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/kendancy/FriendFinder#readme"
 }
